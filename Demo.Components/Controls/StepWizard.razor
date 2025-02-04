@@ -1,0 +1,23 @@
+﻿<div class="wizard-container">
+    <div class="step-indicators">
+        @for (var i = 0; i < Steps.Count; i++)
+        {
+            <div class="step @(GetStepClass(i))"
+                 @onclick="@(GetStepOnClick(i))"
+                 style="cursor:@(IsStepClickable(i) ? "pointer" : "not-allowed")">
+
+                <div class="step-circle">@((i + 1))</div>
+                <div class="step-title">@Steps[i].StepName</div>
+            </div>
+        }
+    </div>
+    <div class="wizard-content">
+        <DynamicComponent Parameters="@(new Dictionary<string, object>
+                                      {
+                                          ["StepName"] = ActiveStep.StepName,
+                                          ["Wizard"] = this,
+                                          ["Context"] = GetCurrentStepData()
+                                      })"
+                          Type="@ActiveStep.ComponentType" />
+    </div>
+</div>

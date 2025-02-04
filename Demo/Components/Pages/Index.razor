@@ -1,0 +1,16 @@
+﻿@page "/"
+@inject IWizardDataService WizardData
+
+<PageTitle>Multi-Model Wizard</PageTitle>
+
+@{
+    if (WizardSteps is not null)
+    {
+        <StepWizard OnCompleted="@HandleWizardCompleted"
+                    Steps="@WizardSteps" />
+    }
+    else
+    {
+        <h1>No Data Available</h1>
+    }
+}

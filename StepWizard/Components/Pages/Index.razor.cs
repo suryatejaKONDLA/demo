@@ -1,4 +1,4 @@
-﻿namespace Demo.Components.Pages;
+﻿namespace StepWizard.Components.Pages;
 
 public partial class Index
 {

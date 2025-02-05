@@ -1,4 +1,4 @@
-﻿namespace Demo.Components.Controls;
+﻿namespace StepWizard.Components.Controls;
 
 public partial class StepWizard
 {

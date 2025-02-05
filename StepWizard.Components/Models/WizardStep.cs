@@ -1,4 +1,4 @@
-﻿namespace Demo.Components.Models;
+﻿namespace StepWizard.Components.Models;
 
 public class WizardStep
 {

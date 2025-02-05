@@ -1,4 +1,4 @@
-﻿namespace Demo.Models.MasterModels;
+﻿namespace StepWizard.Models.MasterModels;
 
 public class ProductModel
 {

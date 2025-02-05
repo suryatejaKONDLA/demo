@@ -1,10 +1,10 @@
-﻿namespace Demo.Components.Pages.Masters;
+﻿namespace StepWizard.Components.Pages.Masters;
 
 public partial class Supplier
 {
     private SupplierModel Model;
     [Parameter] public string StepName { get; set; }
-    [Parameter] public StepWizard Wizard { get; set; }
+    [Parameter] public Controls.StepWizard Wizard { get; set; }
     [Parameter] public object Context { get; set; }
 
     protected override void OnInitialized()

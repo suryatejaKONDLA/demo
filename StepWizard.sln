@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.13.35617.110
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "demo\Demo.csproj", "{6488DD03-C6E2-413E-A45E-4B517C4FFF90}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StepWizard", "StepWizard\StepWizard.csproj", "{6488DD03-C6E2-413E-A45E-4B517C4FFF90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Models", "Demo.Models\Demo.Models.csproj", "{4D46CDBB-1EFE-4637-AAEE-7CAD918D1BF7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StepWizard.Models", "StepWizard.Models\StepWizard.Models.csproj", "{4D46CDBB-1EFE-4637-AAEE-7CAD918D1BF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Components", "Demo.Components\Demo.Components.csproj", "{DE1F23A6-C2BE-48AD-B4ED-D0A2615E2712}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StepWizard.Components", "StepWizard.Components\StepWizard.Components.csproj", "{DE1F23A6-C2BE-48AD-B4ED-D0A2615E2712}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

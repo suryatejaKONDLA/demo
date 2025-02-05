@@ -1,4 +1,4 @@
-﻿namespace Demo.Services.WizardDataServices;
+﻿namespace StepWizard.Services.WizardDataServices;
 
 public interface IWizardDataService
 {

@@ -5,7 +5,7 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 	</PropertyGroup>
 	<ItemGroup>
-		<ProjectReference Include="..\Demo.Components\Demo.Components.csproj" />
-		<ProjectReference Include="..\Demo.Models\Demo.Models.csproj" />
+		<ProjectReference Include="..\StepWizard.Components\StepWizard.Components.csproj" />
+		<ProjectReference Include="..\StepWizard.Models\StepWizard.Models.csproj" />
 	</ItemGroup>
 </Project>
